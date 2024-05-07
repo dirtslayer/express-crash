@@ -1,0 +1,25 @@
+{
+  "name": "express-crash",
+  "version": "1.0.0",
+  "description": "Express Crash Course",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dirtslayer/express-crash.git"
+  },
+  "keywords": [
+    "Express"
+  ],
+  "author": "Darrell Dupas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dirtslayer/express-crash/issues"
+  },
+  "homepage": "https://github.com/dirtslayer/express-crash#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
