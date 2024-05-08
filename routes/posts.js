@@ -12,7 +12,7 @@ let posts = [
 
 // get all posts
 router.get('/', (req,res) => {
-    // additional query params /api/posts&limit=2
+    // additional query params /api/posts?limit=2
     const limit = parseInt(req.query.limit);
     if ( !isNaN(limit) && limit > 0 ) {
         res.status(200).json(posts.slice(0,limit))
