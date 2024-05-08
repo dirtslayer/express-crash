@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "Express Crash Course",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "npm run test"
+    "start": "node --env-file=.env server",
+    "dev": "node --watch --env-file=.env server"
   },
   "repository": {
     "type": "git",
